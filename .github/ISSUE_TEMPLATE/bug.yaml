@@ -1,0 +1,21 @@
+name: Bug report
+description: Something Bare Compare does wrong
+labels: [bug]
+body:
+  - type: input
+    id: version
+    attributes: { label: Version, description: "Help → About, e.g. 0.1.29", placeholder: "0.1.29" }
+    validations: { required: true }
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Platform
+      options: [macOS (Apple silicon), macOS (Intel), Windows, Linux (AppImage)]
+    validations: { required: true }
+  - type: textarea
+    id: what
+    attributes: { label: What happened, description: "What you did, what you expected, what you saw." }
+    validations: { required: true }
+  - type: textarea
+    id: files
+    attributes: { label: The files, description: "Sizes, types, and whether you can share a pair that reproduces it. Never paste a licence key." }

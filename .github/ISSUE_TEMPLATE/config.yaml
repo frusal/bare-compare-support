@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Questions and "how do I"
+    url: https://github.com/frusal/bare-compare-support/discussions
+    about: Discussions, so the issue tracker stays for bugs and requests.
+  - name: Email support
+    url: mailto:support@barecompare.app
+    about: If you would rather not use GitHub, or the matter involves your licence or a purchase.

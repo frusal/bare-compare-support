@@ -1,0 +1,18 @@
+name: New feature request
+description: Something Bare Compare should be doing better
+labels: [enhancement]
+body:
+  - type: input
+    id: version
+    attributes: { label: Version, description: "Help → About, e.g. 0.1.29", placeholder: "0.1.29" }
+    validations: { required: true }
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Platform
+      options: [macOS (Apple silicon), macOS (Intel), Windows, Linux (AppImage)]
+    validations: { required: true }
+  - type: textarea
+    id: what
+    attributes: { label: What could be improved, description: "What you want to see, what you're missing, what you'd like to change." }
+    validations: { required: true }
