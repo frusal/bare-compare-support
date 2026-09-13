@@ -12,6 +12,10 @@ that reports have a public, structured home.
 - **Something should be better** → [request a feature](https://github.com/frusal/bare-compare-support/issues/new?template=feature.yml).
 - **A question, or "how do I …"** → [Discussions](https://github.com/frusal/bare-compare-support/discussions).
 - **Your licence, or a purchase** → email [support@barecompare.app](mailto:support@barecompare.app).
-  Never post a licence key here: issues and discussions are public and indexed by search engines.
+
+**Issues and discussions here are public and indexed by search engines.** Don't include file
+names, paths, screenshots or contents you wouldn't post on a forum, and never a licence key. If
+a bug needs your actual files to reproduce, describe them in the report and email the files to
+support@barecompare.app instead.
 
 Email works for everything above too, if you would rather not use a GitHub account.

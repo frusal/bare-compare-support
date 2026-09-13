@@ -2,6 +2,13 @@ name: Bug report
 description: Something Bare Compare does wrong
 labels: [bug]
 body:
+  - type: markdown
+    attributes:
+      value: >
+        **This tracker is public and indexed by search engines.** Don't include file names,
+        paths, screenshots or contents you wouldn't post on a forum — and never a licence key.
+        If the reproduction needs your actual files, describe them here and email the files to
+        support@barecompare.app instead.
   - type: input
     id: version
     attributes: { label: Version, description: "Help → About, e.g. 0.1.29", placeholder: "0.1.29" }
